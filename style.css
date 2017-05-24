@@ -1,0 +1,40 @@
+
+.background {
+    background-image: url("img/background3.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-top: -25px;
+}
+
+.intro {
+  text-align: center;
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 800px;
+}
+
+
+.left-content {
+  width: 19%%;
+  display: inline-block;
+}
+
+#profile-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 55px;
+  margin-right: 20px;
+}
+
+.right-content {
+  width: 75%;
+  display: inline-block;
+}
