@@ -34,6 +34,11 @@
   margin-right: 20px;
 }
 
+.blurb {
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+
 .middle-content {
   width: 50%;
   display: inline-block;
@@ -67,6 +72,26 @@
 }
 
 .projects {
-  margin-top: 150px;
-  margin-bottom: 50px;
+  background-color: Linen;
+}
+
+#my-work {
+  padding-top: 8%;
+}
+
+
+#connect-four-img {
+  width: 75%;
+}
+
+#chefs-corner-img {
+  width: 75%;
+}
+
+#claim-throne-img {
+  width: 75%;
+}
+
+#perfect-excuse-img {
+  width: 75%;
 }
