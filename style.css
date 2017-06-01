@@ -35,11 +35,38 @@
 }
 
 .middle-content {
-  width: 59%;
+  width: 50%;
   display: inline-block;
+  margin-right: 50px;
+}
+
+.thanks{
+  margin-bottom: 50px;
+}
+
+.bio-content {
+  font-family: 'Bree Serif', serif;
 }
 
 .right-content {
   width: 18%;
   display: inline-block;
+}
+
+
+.skills{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-bottom: -20px;
+}
+
+.skills-list {
+  margin-left: 50px;
+}
+
+.projects {
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
