@@ -25,15 +25,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
   <!-- FONT AWESOME SCRIPT-->
   <script src="https://use.fontawesome.com/8f62b4b9bd.js"></script>
-  <!-- APP.JS -->
-  <script src="app.js" charset="utf-8"></script>
+  <!-- MAIN.JS -->
+  <script src="main.js" charset="utf-8"></script>
 </head>
 <body >
   <header>
     <div class="background">
       <div class="intro">
-        <h1>Hi! I'm Lenin. I  build & design</h1>
-        <h1>web applications.</h1>
+        <h1>Hi! I'm Lenin.<br>
+          <!-- https://codepen.io/CheeseTurtle/pen/jzdgI -->
+          <span
+          class="txt-rotate"
+          data-period="2000"
+          data-rotate='[ "I am a web developer.", "I build & design web applications.", "I am an avid photographer.", "I am also an IT guy." ]'
+          ></span>
+        </h1>
       </div>
     </div>
   </header>
@@ -42,19 +48,20 @@
     <section class="blurb container">
       <!-- PROFILE PICTURE -->
       <div class="left-content center-align">
-        <img id="profile-pic" src="img/profile.jpg" alt="">
+        <a target="_blank" href="https://www.linkedin.com/in/leninyang/"><img id="profile-pic" src="img/profile.jpg" alt=""></a>
       </div>
       <!-- BLURB -->
       <div class="middle-content center-align">
         <h4 class="thanks">THANKS FOR STOPPING BY!</h4>
         <p class="bio-content">My name is Lenin and I'm a web developer based in Santa Cruz. I have a passion for creating websites and solving problems. I am excited each time I learn of a new technology that will make both problem solving and creative expression more straightfoward. When I'm not coding, you'll find me playing with my dslr. I enjoy taking pictures and putting together videos.</p>
-        <div class="center-align icons">
+        <div class="center-align">
+          <hr>
           <!-- LINKEDIN -->
-          <a target="_blank" href="https://www.linkedin.com/in/leninyang/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/leninyang/"><i class="fa fa-linkedin-square fa-2x icons" aria-hidden="true"></i></a>
           <!-- RESUME -->
-          <a target="_blank" href="https://www.dropbox.com/s/xl2t4n7nx16zfrd/Lenin_Yang_Resume.pdf?dl=0"><i class="icons fa fa-file-text fa-2x" aria-hidden="true"></i></a>
+          <a title="Resume" target="_blank" href="https://www.dropbox.com/s/xl2t4n7nx16zfrd/Lenin_Yang_Resume.pdf?dl=0"><i class="icons fa fa-file-text fa-2x icons" aria-hidden="true"></i></a>
           <!-- GITHUB -->
-          <a target="_blank" href="https://github.com/leninyang"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+          <a title="Github" target="_blank" href="https://github.com/leninyang"><i class="fa fa-github-alt fa-2x icons" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="right-content">
@@ -66,11 +73,12 @@
             JavaScript<br>
             Ruby<br>
             HTML5/CSS3<br>
+            Jquery<br>
             Angular.JS<br>
-            NodeJS<br>
+            Node.js<br>
             PostgreSQL<br>
-            Rails<br>
-            Express<br>
+            Ruby On Rails<br>
+            Express.js<br>
             MongoDB<br>
             Materialize<br>
             Adobe CC <br>
