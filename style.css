@@ -1,29 +1,39 @@
+/*-----------------------------*/
+/*LANDING PAGE*/
+/*-----------------------------*/
 
+/*BACKGROUND IMAGE FOR LANDING PAGE*/
 .background {
     background-image: url("img/background3.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
-    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+/*HEADER*/
 .intro {
   text-align: center;
   color: white;
   font-family: 'Bree Serif', serif;
 }
-.flex-center-vertically {
+
+
+/*-----------------------------*/
+/*BIO SECTION*/
+/*-----------------------------*/
+
+.blurb {
+  margin-top: 5vh;
+  margin-bottom: 1vh;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 800px;
 }
 
-
+/*PROFILE PICTURE*/
 .left-content {
-  width: 19%%;
-  display: inline-block;
+  width: 30vw;
 }
 
 #profile-pic {
@@ -32,33 +42,32 @@
   border-radius: 50%;
   margin-top: 55px;
   margin-right: 20px;
+  display: block;
 }
 
-.blurb {
-  margin-top: 2%;
-  margin-bottom: 7%;
-}
-
+/*CONTENT FOR BIO*/
 .middle-content {
-  width: 50%;
-  display: inline-block;
+  width: 50vw;
   margin-right: 50px;
 }
 
+/*Header for bio*/
 .thanks{
   margin-bottom: 50px;
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
 }
-
+/*Content for bio*/
 .bio-content {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Abel', sans-serif;
+  font-size: 21px;
 }
 
+/*SKILLS SECTION*/
 .right-content {
-  width: 18%;
-  display: inline-block;
+  width: 20vw;
 }
-
-
+/*Header for skills*/
 .skills{
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
@@ -66,17 +75,34 @@
   margin-left: 40px;
   margin-bottom: -20px;
 }
-
+/*List of skills*/
 .skills-list {
   margin-left: 50px;
+  margin-bottom: 10%;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
 }
 
+.icons {
+  padding-top: 2vh;
+}
+
+/*-----------------------------*/
+/*PROJECT SECTION*/
+/*-----------------------------*/
 .projects {
-  background-color: Linen;
+  background-color: #e5e5e5;
+}
+
+.project-headers {
+  font-weight: bold;
 }
 
 #my-work {
   padding-top: 8%;
+  padding-bottom: 3%;
+  font-family: 'Abel', sans-serif;
+  font-size: 45px;
 }
 
 
@@ -94,4 +120,32 @@
 
 #perfect-excuse-img {
   width: 75%;
+}
+
+#jot-img {
+  width: 75%;
+}
+
+
+/*-----------------------------*/
+/*MISC STUFF*/
+/*-----------------------------*/
+
+/*Links*/
+a {
+  color: inherit;
+}
+
+
+/*FOOTER*/
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+footer {
+  display: flex;
 }

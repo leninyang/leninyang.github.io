@@ -3,79 +3,122 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <!-- css -->
+  <!-- =========================== -->
+  <!-- CSS SECTION-->
+  <!-- =========================== -->
+  <!-- MATERIALIZE -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <!-- scripts -->
+  <!-- =========================== -->
+  <!-- SCRIPTS SECTION-->
+  <!-- =========================== -->
+  <!-- JQuery -->
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <!-- <script src="main.js" charset="utf-8"></script> -->
+  <!-- MATERIALIZE JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <!-- FONT AWESOME SCRIPT-->
+  <script src="https://use.fontawesome.com/8f62b4b9bd.js"></script>
+  <!-- APP.JS -->
   <script src="app.js" charset="utf-8"></script>
 </head>
 <body >
-  <div class="background">
-    <h2 class="intro flex-center-vertically">Hi! I'm Lenin. I  build & design <br> web applications.</h2>
-  </div>
-  <section class="container blurb">
-    <div>
-      <div class="left-content">
+  <header>
+    <div class="background">
+      <div class="intro">
+        <h1>Hi! I'm Lenin. I  build & design</h1>
+        <h1>web applications.</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- BIO -->
+    <section class="blurb container">
+      <!-- PROFILE PICTURE -->
+      <div class="left-content center-align">
         <img id="profile-pic" src="img/profile.jpg" alt="">
       </div>
+      <!-- BLURB -->
       <div class="middle-content center-align">
         <h4 class="thanks">THANKS FOR STOPPING BY!</h4>
         <p class="bio-content">My name is Lenin and I'm a web developer based in Santa Cruz. I have a passion for creating websites and solving problems. I am excited each time I learn of a new technology that will make both problem solving and creative expression more straightfoward. When I'm not coding, you'll find me playing with my dslr. I enjoy taking pictures and putting together videos.</p>
+        <div class="center-align icons">
+          <!-- LINKEDIN -->
+          <a target="_blank" href="https://www.linkedin.com/in/leninyang/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          <!-- RESUME -->
+          <a target="_blank" href="https://www.dropbox.com/s/xl2t4n7nx16zfrd/Lenin_Yang_Resume.pdf?dl=0"><i class="icons fa fa-file-text fa-2x" aria-hidden="true"></i></a>
+          <!-- GITHUB -->
+          <a target="_blank" href="https://github.com/leninyang"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+        </div>
       </div>
-      <div class="right-content center-align">
-        <h5 class="skills">My Skills:</h5><br>
-        <h6 class="skills-list">
-          JavaScript<br>
-          Ruby<br>
-          HTML5/CSS3<br>
-          Angular.JS<br>
-          NodeJS<br>
-          PostgreSQL<br>
-          Rails<br>
-          Express<br>
-          MongoDB<br>
-          Materialize<br>
-          Adobe CC <br>
-        </h6>
+      <div class="right-content">
+        <div class="skills">
+          <h5>My Skills:</h5><br>
+        </div>
+        <div>
+          <h6 class="skills-list">
+            JavaScript<br>
+            Ruby<br>
+            HTML5/CSS3<br>
+            Angular.JS<br>
+            NodeJS<br>
+            PostgreSQL<br>
+            Rails<br>
+            Express<br>
+            MongoDB<br>
+            Materialize<br>
+            Adobe CC <br>
+          </h6><br>
+        </div>
       </div>
     </section>
+    <!-- PROJECTS -->
     <section class="center-align projects">
       <div class="container">
         <h4 id="my-work">Here's my work</h4>
+        <!-- CONNECT FOUR -->
         <div class="connect-four">
-          <h5>Connect Four</h5>
-          <p>HTML | CSS |JavaScript | JQuery</p>
+          <h5 class="project-headers"><a target="_blank" href="https://leninyang.github.io/connect_four/">Connect Four</a></h5>
+          <p>HTML | CSS | JavaScript | JQuery</p>
           <p>Connect Four is a two played based web application</p>
-          <img id="connect-four-img"src="img/connect_four.png" class="responsive-img">
+          <a target="_blank" href="https://leninyang.github.io/connect_four/"><img id="connect-four-img"src="img/connect_four.png" class="responsive-img"></a>
         </div>
+        <!-- CHEFSCORNER -->
         <div class="chefs-corner">
-          <h5>ChefsCorner</h5>
+          <h5 class="project-headers"><a target="_blank" href="https://fast-refuge-65928.herokuapp.com/">ChefsCorner</a></h5>
           <p>HTML | CSS | JavaScript | JQuery | Node.js | Express.js | MongoDB | Mongoose</p>
-          <p>CRUD application that allows users to create and share food posts with others.</p>
-          <img id="chefs-corner-img"src="img/Chefs-Corner.png" class="responsive-img">
+          <p>ChefsCorner is a CRUD application that allows users to create and share food posts with others.</p>
+          <a target="_blank" href="https://fast-refuge-65928.herokuapp.com/"><img id="chefs-corner-img"src="img/Chefs-Corner.png" class="responsive-img"></a>
         </div>
+        <!-- CLAIM YOUR THRONE -->
         <div class="claim-your-throne">
-          <h5>Claim Your Throne</h5>
+          <h5 class="project-headers"><a target="_blank" href="https://whispering-retreat-91949.herokuapp.com/">Claim Your Throne</a></h5>
           <p>Mongo | Express | AngularJS | Node.js</p>
-          <p>Single-page application based on Game of Thrones</p>
-          <img id="claim-throne-img"src="img/Claim_your_throne.png" class="responsive-img">
+          <p>Claim Your Throne is a single-page application based on Game of Thrones. You can search up characters from the popular TV series and add them to your own "House".</p>
+          <a target="_blank" href="https://whispering-retreat-91949.herokuapp.com/"><img id="claim-throne-img"src="img/Claim_your_throne.png" class="responsive-img"></a>
         </div>
+        <!-- PERFECT EXCUSE -->
         <div class="perfect-excuse">
-          <h5>Find The Perfect Excuse</h5>
+          <h5 class="project-headers"><a target="_blank" href="https://find-the-perfect-excuse.herokuapp.com/">Find The Perfect Excuse</a></h5>
           <p>HTML | CSS | AngularJS | Ruby on Rails | Java Web Token</p>
           <p>Single-page application for finding the perfect excuse.</p>
-          <img id="perfect-excuse-img"src="img/perfect_excuse.png" class="responsive-img">
+          <a target="_blank" href="https://find-the-perfect-excuse.herokuapp.com/"><img id="perfect-excuse-img"src="img/perfect_excuse.png" class="responsive-img"></a>
         </div>
-      </div>
-    </section>
-  </div>
-</body>
-</html>
+        <!-- JOT -->
+        <div class="jot">
+          <h5 class="project-headers"><a target="_blank" href="https://jot-note-app.herokuapp.com/">JoT</a></h5>
+          <p>HTML | CSS | AngularJS | Ruby on Rails | Java Web Token</p>
+          <p>Single-page application for taking notes.</p>
+          <a target="_blank" href="https://jot-note-app.herokuapp.com/"><img id="jot-img"src="img/jot.png" class="responsive-img"></a>
+          </div
+        </div>
+      </section>
+    </main>
+  </body>
+  </html>
