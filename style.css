@@ -114,16 +114,33 @@
   width: 75%;
 }
 
+.chefs-corner {
+  padding-top: 5vh;
+}
+
 #claim-throne-img {
   width: 75%;
+}
+
+.claim-your-throne {
+  padding-top: 5vh;
 }
 
 #perfect-excuse-img {
   width: 75%;
 }
 
+.perfect-excuse {
+  padding-top: 5vh;
+}
+
+
 #jot-img {
   width: 75%;
+}
+
+.jot {
+  padding-top: 5vh;
 }
 
 
