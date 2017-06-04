@@ -111,13 +111,18 @@
 #connect-four-img {
   width: 75%;
 }
+.connect-four{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
 
 #chefs-corner-img {
   width: 75%;
 }
 
 .chefs-corner {
-  padding-top: 5vh;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
 }
 
 #claim-throne-img {
@@ -125,7 +130,8 @@
 }
 
 .claim-your-throne {
-  padding-top: 5vh;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
 }
 
 #perfect-excuse-img {
@@ -133,7 +139,8 @@
 }
 
 .perfect-excuse {
-  padding-top: 5vh;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
 }
 
 
@@ -142,7 +149,8 @@
 }
 
 .jot {
-  padding-top: 5vh;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
 }
 
 
