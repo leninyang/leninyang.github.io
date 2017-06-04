@@ -158,21 +158,22 @@
 /*MISC STUFF*/
 /*-----------------------------*/
 
+.parallax-container {
+  height: 100vh;
+}
+
+
 /*Links*/
 a {
   color: inherit;
 }
 
-
-/*FOOTER*/
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
+
 main {
   flex: 1 0 auto;
-}
-footer {
-  display: flex;
 }
