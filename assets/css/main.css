@@ -3439,5 +3439,5 @@
 	}
 
 	.footer-icons a:hover {
-		color: grey;
+		color: grey !important;
 	}
