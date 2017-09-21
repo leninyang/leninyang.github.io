@@ -3438,3 +3438,7 @@
 	.footer-icons {
 		color: black;
 	}
+
+	.footer-icons a:hover {
+		color: grey !important;
+	}
